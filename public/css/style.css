@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    height: 100vh;
+    background-color: #ffffff;
+    color: #333333;
+    border-right: 1px solid #ddd;
+    padding: 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h4 {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.sidebar p {
+    color: #6c757d;
+    font-size: 14px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333333;
+    transition: all 0.3s ease-in-out;
+}
+
+.sidebar .nav-link.active {
+    background-color: #007bff;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #f0f0f0;
+    color: #333333;
+}
+
+/* Informasi Sidebar untuk Pengguna Belum Login */
+.sidebar .text-muted {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6c757d;
+}
+
+.sidebar .text-muted a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.sidebar .text-muted a:hover {
+    text-decoration: underline;
+}
